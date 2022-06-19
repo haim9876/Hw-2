@@ -1,0 +1,631 @@
+/*************************** Movies.html *******************************/
+body {
+  margin:20px 20px;
+  background-image: linear-gradient(lightblue, beige);
+}
+.movies_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.movies_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+.movies_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.movies_movie {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.movies_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.movies_img {
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.movies_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie_title{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+.movies_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************** Music.html *******************************/
+.music_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.music_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.music_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+.music_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.music_image{
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.music_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music_title{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/*************************** Photography.html *******************************/
+.photo_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.photo_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.photo_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.photo_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+.photo_section_1 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo_section_2 {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo_title_1 {
+  font-size: 1.5rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_title_2 {
+  font-size: 1.5rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_img {
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_title{
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.photo_video {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*************************** Travel.html *******************************/
+.travel_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.travel_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.travel_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+.travel_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.travel_title{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.travel_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel_img {
+  width: 30%;
+  border-radius: 20px;
+}
+
+
+.travel_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************** Welcome.html *******************************/
+.welcome_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.welcome_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.welcome_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+.welcome_article{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.welcome_img {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome_img > img {
+  border-radius: 20px;
+  width: 30%;
+}
+
+.welcome_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************** Cook.html *******************************/
+.cook_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cook_nav {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.cook_item {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.cook_item:hover {
+  background-color: rgb(0, 255, 157);
+}
+
+.cook_title{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.cook_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.cook_title_content{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.cook_img {
+  border-radius: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cook_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cook_section_paragraph {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.cook_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* movie responsive */
+@media screen and (min-width: 860px) {
+  .movies_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .movies_title {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movies_item {
+    /* display: flex; */
+    justify-content: center;
+    align-items: baseline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movies_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .movies_title {
+    font-size: 2.0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movies_item {
+    /* display: flex; */
+    justify-content: center;
+    align-items: baseline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .movies_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .movies_title {
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movies_item {
+    /* display: flex; */
+    justify-content: center;
+    align-items: baseline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}
+
+/* music responsive */
+
+@media screen and (min-width: 860px) {
+  .music_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .music_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .music_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* photography responsive */
+
+@media screen and (min-width: 860px) {
+  .photo_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .photo_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* travel responsive */
+
+@media screen and (min-width: 860px) {
+  .travel_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .travel_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .travel_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* welcome responsive */
+
+@media screen and (min-width: 860px) {
+  .welcome_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .welcome_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .welcome_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* cook responsive */
+
+@media screen and (min-width: 860px) {
+  .cook_img {
+    border-radius: 20px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cook_img {
+    border-radius: 20px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .cook_img {
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
